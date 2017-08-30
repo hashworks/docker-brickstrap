@@ -11,6 +11,4 @@ RUN apt-key adv --keyserver pgp.mit.edu --recv-keys 2B210565
 RUN apt-get update
 RUN apt-get -y install brickstrap
 
-ENTRYPOINT ["/usr/bin/brickstrap"]
-
-CMD [""]
+CMD ["brickstrap"]
